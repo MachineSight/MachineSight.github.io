@@ -6,7 +6,7 @@ permalink: /posts/what-images-really-are
 description: "This post examines what images really are, delving into pixel-level representation, and how they can be used in computer vision tasks."
 ---
 
-<img src="/Assets/Images/matrix_style.webp" alt="Matrix-like Computer Screen" />
+<img src="/assets/images/matrix_style.webp" alt="Matrix-like Computer Screen" />
 <figcaption>
   Binary code background. Source: <a href="https://www.freepik.com/free-photo/binary-code-background_1182031.htm">Freepik</a>
 </figcaption>
@@ -23,7 +23,7 @@ Think of pixels as pebbles on a shore. They can easily be arranged to form diffe
 Since an image is a matrix, it is represented with rows and columns; where the number of rows specify the height, and the number of columns is the width.  Hence, the dimension of an image is usually in the form: (rows, columns). For example, the image below has 1920 pixels along its height and 2560 pixels across its width. The upper left corner is the origin of the image coordinate system by convention, and indexing starts from zero.
 
 <figure>
-  <img src="/Assets/Images/image_coordinate.png" alt="Image coordinates system" />
+  <img src="/assets/images/image_coordinate.png" alt="Image coordinates system" />
 </figure>
 
 
@@ -32,7 +32,7 @@ There are two major types of images:
 **Grayscale Images**:- In this representation, pixels take a single value which are either black or white or any shade in between. For uint8 (8-bit unsigned integer) which is most common, 256 values (2^8) are used. These values range from 0 to 255. 0 represents complete black, 255 for white, and numbers in-between for different shades of gray. We therefore see that these values encode the intensity of the pixel. The figure below is a comprehensive insight into this.
 
 <figure style="text-align: center;">
-  <img src="/Assets/Images/grayscale_example.png" alt="Grayscale image with pixel values" />
+  <img src="/assets/images/grayscale_example.png" alt="Grayscale image with pixel values" />
   <figcaption>Grayscale image of hand-written 3 on the left with pixel values on the right. Source: MNIST dataset</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ In RGB, white is represented as (255, 255, 255) and black as (0, 0, 0). Other co
 
 <figure style="text-align: center;">
     <p align="center">
-        <img src="/Assets/Images/zoomed_in_pixels.gif" alt="Zoom-in to pixel-level GIF" />
+        <img src="/assets/images/zoomed_in_pixels.gif" alt="Zoom-in to pixel-level GIF" />
         <figcaption>Zooming into the pixel level of RGB color image</figcaption>
     </p>
 </figure>

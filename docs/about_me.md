@@ -4,7 +4,7 @@ title: About The Author
 permalink: /about_me
 ---
 
-<img src="/Assets/Images/Picture_Image.jpg" alt="Me" width="200" height="200" style="border-radius: 50%; display: block; margin: 0 auto;">
+<img src="/assets/images/Picture_Image.jpg" alt="Me" width="200" height="200" style="border-radius: 50%; display: block; margin: 0 auto;">
 
 
 **David Dada** manages MachineSight blog. He is a 4th year student of the department of Mechatronics Engineering, at Federal University of Technology, Minna (FUT, Minna). At a tender age, his passion for technology shines as he crafts devices; from wind turbines to toy aircraft (Though it never flew 😅). He now decides to specialize in Computer Vision. 
