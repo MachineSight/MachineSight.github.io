@@ -6,7 +6,7 @@ permalink: /posts/cnn-model-explainability-with-grad-cam
 description: "This post examines how Grad-CAM can be used to explain CNN model predictions, focusing on visualizing attention maps."
 ---
 
-<img src="/assets/images/2026-02-22/intro-img.jpg" alt="Image classification" />
+<img src="/assets/images/2026-02-22/intro-img.jpg" alt="Object localization from image classification" />
 
 <br>
 Deep learning models have become vital to the field of Computer Vision, and Artificial Intelligence. They have become the workhorse of modern machine learning algorithms. From image classification to image captioning, deep learning has been viewed as the most viable option.
@@ -17,6 +17,6 @@ Model explainability or eXplainable AI (XAI) aims to provide a clear understandi
 
 **The background:** After training a well-performing image classifier for medical diagnostics with a post-graduate researcher, the need arose to see that the model really is considering the aspect of the image necessary for accurate prediction. It was pleasing to realize the model works correctly after obtaining the Grad-CAM. So, if you have been wondering what your DL model "looks" at to classify an image, then the notebook is for you.
 
-Access the notebook <a href="https://www.freepik.com/free-photo/binary-code-background_1182031.htm">here</a>. I hope you enjoyed it.
+Access the notebook <a href="https://www.kaggle.com/code/david2do/cnn-model-explainability-with-grad-cam">here</a>. I hope you enjoyed it.
 
 *Kindly note that this post will be updated later for analysis and detail.*
