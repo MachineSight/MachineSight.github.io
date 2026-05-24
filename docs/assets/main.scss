@@ -1,0 +1,149 @@
+---
+---
+
+@import "minima";
+
+:root {
+  color-scheme: light;
+  --site-bg: #f6f2ea;
+  --site-surface: #ffffff;
+  --site-text: #1f2328;
+  --site-muted: #5f6b7a;
+  --site-border: #ddd5c8;
+  --site-link: #1457b7;
+  --site-link-hover: #0d3f8a;
+  --site-code-bg: #f3ede4;
+  --site-shadow: 0 10px 30px rgba(31, 35, 40, 0.08);
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --site-bg: #0f1217;
+  --site-surface: #151a22;
+  --site-text: #e7edf5;
+  --site-muted: #a1adbb;
+  --site-border: #2a313d;
+  --site-link: #8ab4ff;
+  --site-link-hover: #c2d8ff;
+  --site-code-bg: #1b202a;
+  --site-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+body {
+  background: var(--site-bg);
+  color: var(--site-text);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+a {
+  color: var(--site-link);
+}
+
+a:hover {
+  color: var(--site-link-hover);
+}
+
+.site-header,
+.site-footer {
+  background: var(--site-surface);
+  border-top-color: var(--site-border);
+  border-bottom-color: var(--site-border);
+  box-shadow: var(--site-shadow);
+}
+
+.site-title,
+.site-nav .page-link {
+  color: var(--site-text);
+}
+
+.post-content,
+.page-content,
+.post-meta,
+.footer-heading,
+.site-footer,
+.site-footer a {
+  color: var(--site-text);
+}
+
+.post-meta,
+.rss-subscribe,
+.site-footer p,
+.contact-info {
+  color: var(--site-muted);
+}
+
+blockquote {
+  color: var(--site-muted);
+  border-left-color: var(--site-border);
+}
+
+hr,
+table th,
+table td {
+  border-color: var(--site-border);
+}
+
+pre,
+code,
+table th {
+  background: var(--site-code-bg);
+}
+
+.post-list > li {
+  border-bottom-color: var(--site-border);
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.35rem;
+  padding: 0;
+  border: 1px solid var(--site-border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--site-text);
+  cursor: pointer;
+  vertical-align: middle;
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-1px);
+  background: rgba(127, 127, 127, 0.08);
+}
+
+.theme-toggle__icon {
+  display: none;
+  width: 1rem;
+  height: 1rem;
+}
+
+.theme-toggle__icon svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+html[data-theme="dark"] .theme-toggle__icon--bulb,
+html[data-theme="light"] .theme-toggle__icon--moon {
+  display: inline-flex;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.contact-info {
+  border-top-color: var(--site-border) !important;
+}
