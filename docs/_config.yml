@@ -16,3 +16,5 @@ plugins:
   - jekyll-sitemap
 
 google_analytics: G-X2SZPGZPCM
+
+future: true
