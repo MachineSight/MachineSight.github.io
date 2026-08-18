@@ -17,4 +17,9 @@ plugins:
 
 google_analytics: G-X2SZPGZPCM
 
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+# Allow future-dated posts to be published
 future: true
