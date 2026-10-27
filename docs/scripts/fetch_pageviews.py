@@ -62,7 +62,7 @@ def fetch_pageviews() -> dict[str, int]:
     client = BetaAnalyticsDataClient(credentials=credentials_from_environment())
     request = RunReportRequest(
         property=f"properties/{property_id}",
-        date_ranges=[DateRange(start_date="2000-01-01", end_date="today")],
+        date_ranges=[DateRange(start_date="2025-12-23", end_date="today")],
         dimensions=[Dimension(name="pagePath")],
         metrics=[Metric(name="screenPageViews")],
         limit=100000,
